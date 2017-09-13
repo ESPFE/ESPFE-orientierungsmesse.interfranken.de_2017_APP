@@ -5,9 +5,7 @@
  */
 
 
-'use strict';
-
-let app = {
+var app = {
     initialize: function()
     {
         
