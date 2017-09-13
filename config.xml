@@ -12,8 +12,4 @@
     <engine name="android" spec="~6.2.3" />
     <plugin name="cordova-plugin-dialogs" spec="^1.3.3" />
     <plugin name="cordova-plugin-network-information" spec="^1.3.3" />
-    
-    <cordova>
-        <access origin="http://dev01.managed-solr.de*"/>
-    </cordova>
 </widget>
