@@ -2,12 +2,15 @@
 <widget id="orientierungsmesse.interfranken.de" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Orientierungsmesse</name>
     <description>
-        A blank PhoneGap app.
+        Orientierungsmesse Ausbildung und Beruf 
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="h.schlund@interfranken.de" href="https://orientierungsmesse.interfranken.de">
+        Zweckverband Industrie-/Gewerbepark InterFranken
     </author>
     <content src="index.html" />
+    
+    <icon src="icons/generic-icon.png" />
+    
     <access origin="*" />
     <allow-navigation href="*" />
     <engine name="android" spec="~6.2.3" />
