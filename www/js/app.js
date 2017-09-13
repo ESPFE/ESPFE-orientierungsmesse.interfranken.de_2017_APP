@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-
+/*
 var app = {
     initialize: function()
     {
@@ -23,18 +23,13 @@ var app = {
 };
 
 app.initialize();
+*/
 
 
 function onDeviceReady()
 {
-    if (navigator.connection.type == Connection.NONE)
-    {
-        navigator.notification.alert('An internet connection is required to continue');
-    }
-    else
-    {
+    
         window.location="http://dev01.managed-solr.de";
-    }
 }
 
 document.addEventListener("deviceready", onDeviceReady, false);
