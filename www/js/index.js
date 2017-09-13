@@ -19,7 +19,7 @@ var app = {
     onDeviceReady: function()
     {
         //window.alert(window.location.href);
-        cordova.InAppBrowser.open('http://dev01.managed-solr.de');
+        //cordova.InAppBrowser.open('http://dev01.managed-solr.de');
         //window.alert(window.location.href);
         //window.location="https://www.edv-peuker.de";
     }
