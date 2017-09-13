@@ -18,8 +18,9 @@ var app = {
     
     onDeviceReady: function()
     {
-        window.alert('TEST 1');
+        window.alert(window.location.href);
         window.location="http://dev01.managed-solr.de";
+        window.alert(window.location.href);
         //window.location="https://www.edv-peuker.de";
     }
 };
