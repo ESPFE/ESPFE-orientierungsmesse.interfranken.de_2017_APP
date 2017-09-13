@@ -1,0 +1,13 @@
+{
+    "name": "orientierungsmesse.interfranken.de",
+    "version": "1.0.0",
+    "displayName": "Orientierungsmesse",
+    "cordova": {
+        "platforms": [
+            "android"
+        ]
+    },
+    "dependencies": {
+        "cordova-android": "~6.2.3"
+    }
+}
