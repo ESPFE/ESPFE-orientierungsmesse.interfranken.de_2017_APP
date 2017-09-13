@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/*
+
 var app = {
     initialize: function()
     {
@@ -18,18 +18,13 @@ var app = {
     
     onDeviceReady: function()
     {
-        
+        window.alert('TEST 1');
+        //window.location="http://dev01.managed-solr.de";
     }
 };
 
 app.initialize();
-*/
 
 
-function onDeviceReady()
-{
-    
-        window.location="http://dev01.managed-solr.de";
-}
 
-document.addEventListener("deviceready", onDeviceReady, false);
+document.addEventListener("deviceready", app.onDeviceReady, false);
