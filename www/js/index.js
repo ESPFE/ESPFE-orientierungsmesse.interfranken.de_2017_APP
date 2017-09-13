@@ -22,7 +22,15 @@ var app = {
         //cordova.InAppBrowser.open('http://dev01.managed-solr.de', '_self', 'location=no,zoom=no');
         //window.alert(window.location.href);
         //window.location="https://www.edv-peuker.de";
-        window.location = 'http://dev01.managed-solr.de';
+
+        if (navigator.connection.type == Connection.NONE)
+        {
+            navigator.notification.alert('An internet connection is required to continue');
+        }
+        else
+        {
+            window.location = 'http://dev01.managed-solr.de';
+        }
     }
 };
 
