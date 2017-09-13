@@ -19,7 +19,7 @@ var app = {
     onDeviceReady: function()
     {
         window.alert(window.location.href);
-        window.location="http://dev01.managed-solr.de";
+        window.location.href="http://dev01.managed-solr.de";
         window.alert(window.location.href);
         //window.location="https://www.edv-peuker.de";
     }
