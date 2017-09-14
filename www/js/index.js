@@ -29,7 +29,7 @@ var app = {
         }
         else
         {
-            window.location = 'http://dev01.managed-solr.de';
+            window.location = 'https://orientierungsmesse.interfranken.de';
         }
     }
 };
