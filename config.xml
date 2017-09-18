@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="orientierungsmesse.interfranken.de" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="orientierungsmesse.interfranken.de" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Orientierungsmesse</name>
     <description>
-        Orientierungsmesse Ausbildung und Beruf 
+        Orientierungsmesse Ausbildung und Beruf
     </description>
     <author email="h.schlund@interfranken.de" href="https://orientierungsmesse.interfranken.de">
         Zweckverband Industrie-/Gewerbepark InterFranken
