@@ -11,6 +11,12 @@
     
     <icon src="icons/generic-icon.png" />
     
+    <platform name="ios">
+        <icon src="icons/App_Zeichen_Interfranken_120x120px_full.png" width="120" height="120" />
+        <icon src="icons/App_Zeichen_Interfranken_152x152px_full.png" width="152" height="152" />
+        <icon src="icons/App_Zeichen_Interfranken_76x76px_full.png" width="76" height="76" />
+    </platform>
+    
     <access origin="*" />
     <allow-navigation href="*" />
     <engine name="android" spec="~6.2.3" />
