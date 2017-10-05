@@ -9,7 +9,9 @@
     </author>
     <content src="index.html" />
     
-    <icon src="icons/generic-icon.png" />
+    <platform name="android">
+        <icon src="icons/generic-icon.png" />
+    </platform>
     
     <platform name="ios">
         <icon src="icons/App_Zeichen_Interfranken_120x120px_full.png" width="120" height="120" />
